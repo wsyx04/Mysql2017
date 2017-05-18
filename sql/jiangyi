@@ -1,0 +1,105 @@
+sql 结构化查询语言
+命令式语言
+单行注释 -- 或 #
+多行注释 ctrl + shift+/
+
+SQL关键字不区分大小写
+分号;的英文区分语句的标志
+
+完全限定表明   所有表前面都加库名
+
+
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database  创建数据库
+ALTER DATABASE - modifies a database    修改数据库定义
+DROP DATABASE - deletes a database    删除数据库
+CREATE TABLE - creates a new table    新建表
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table           删除表
+CREATE INDEX - creates an index (search key)   创建索引
+DROP INDEX - deletes an index  删除索引
+
+
+
+基本概念
+
+数据库
+Database
+
+数据库 - 用于存储有组织数据的容器（通常是文件或文件集）。
+Database - A container (usually a file or set of files) to store organized data.
+
+表
+Table
+
+特定类型数据的结构化列表。
+A structured list of data of a specific type.
+
+架构
+Schema
+
+有关数据库和表格布局和属性的信息。
+Information about database and table layout and properties.
+
+柱
+Column
+
+表中的单个字段。所有表由一个或多个列组成。
+A single field in a table. All tables are made up of one or more columns.
+
+数据类型
+Datatype
+
+一种允许的数据。每个表列都有一个关联的数据类型，限制（或允许）该列中的特定数据。
+A type of allowed data. Every table column has an associated datatype that restricts (or allows) specific data in that column.
+
+行
+Row
+
+表中的记录。
+A record in a table.
+
+首要的关键
+Primary key+
+
+一个列（或一组列），其值唯一标识表中的每一行。
+A column (or set of columns) whose values uniquely identify every row in a table.
+
+SQL ['siːkwəl]
+
+SQL不是特定数据库供应商使用的专有语言。几乎每个主要的RDBMS支持SQL，所以学习这一种语言可以让您与每一个你将遇到的数据库进行交互。
+SQL is not a proprietary language used by specific database vendors. Almost every major RDBMS supports SQL,
+so learning this one language enables you to interact with just about every database you'll run into.
+
+SQL容易学习。这些陈述都是由描述性的英文单词组成，并没有那么多。
+SQL is easy to learn. The statements are all made up of descriptive English words, and there aren't that many of them.
+
+尽管它显而易见，SQL实际上是一种非常强大的语言，通过巧妙地使用其语言元素，您可以执行非常复杂和复杂的数据库操作。
+Despite its apparent simplicity, SQL is actually a very powerful language,
+and by cleverly using its language elements you can perform very complex and sophisticated database operations.
+
+
+1. DDL
+
+Data Definition Language  数据定义语句
+
+SQL 数据类型
+Text types 文本类型
+CHAR(size)定长字符类型
+TINYTEXT 小文本255个
+TEXT
+
+Number types  数字类型
+Date types 时间类型
+
+
+
+约束
+
+
+外建
+ddl语句
+alter table 修改表定义

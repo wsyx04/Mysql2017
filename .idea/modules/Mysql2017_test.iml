@@ -10,6 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Mysql2017_main" />
+    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.42" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="Mysql2017_main" />
 </module>
